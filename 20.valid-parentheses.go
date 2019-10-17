@@ -23,6 +23,7 @@ func (s stack) Pop() (stack, rune) {
 	return s[:l-1], s[l-1]
 }
 
+// O(n)
 func isValid(str string) bool {
 	s := make(stack, 0)
 
