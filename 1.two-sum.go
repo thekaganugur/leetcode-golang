@@ -14,10 +14,8 @@ func twoSum(nums []int, target int) []int {
 		ii, ok := m[v]
 		if ok {
 			return []int{ii, i}
-		} else {
-			m[target-v] = i
 		}
-
+		m[target-v] = i
 	}
 	return nil
 }
