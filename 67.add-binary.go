@@ -5,8 +5,10 @@
  */
 
 // @lc code=start
-func addBinary(a string, b string) string {
-    
-}
-// @lc code=end
+package main
 
+func addBinary(a string, b string) string {
+
+}
+
+// @lc code=end
